@@ -68,6 +68,7 @@ header a {
 
 .squares-section {
     display: flex;
+    justify-content: center;
 }
 
 .square img {
@@ -78,6 +79,7 @@ header a {
 .quote-section {
     background: #e5e7eb;
     display: flex;
+    justify-content: center;
 }
 
 cite {
@@ -86,6 +88,24 @@ cite {
 
 .cta-section {
     display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    border-radius: 1rem;
+    margin: 12rem;
+}
+
+.left-cta {
+    color: white;
+    padding: 2rem;
+}
+
+.cta-button {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 1rem;
+    border: 2px solid white;
 }
 
 footer {
