@@ -79,7 +79,12 @@ header a {
 .quote-section {
     background: #e5e7eb;
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
 }
 
 cite {
