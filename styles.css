@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-.body {
+body {
     display: flex;
     font-family: 'Roboto', sans-serif;
+    flex-flow: column;
 }
 
 header,
@@ -15,14 +16,63 @@ footer,
 header {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header img {
+    width: 5rem;
+    height: auto;
+}
+
+header ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 8px;
+}
+
+header a {
+    text-decoration: none;
+    color: #f9fAf8;
 }
 
 .hero-section {
     display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+
+.hero-section img {
+    width: 25rem;
+    height: auto;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: white;
 }
 
 .squares-section {
     display: flex;
+}
+
+.square img {
+    width: 12rem;
+    height: auto;
 }
 
 .quote-section {
