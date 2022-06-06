@@ -2,6 +2,10 @@
     display: flex;
 }
 
+header, footer, .hero-section {
+    background: #1F2937;
+}
+
 header {
     display: flex;
     flex-flow: row nowrap;
@@ -16,6 +20,7 @@ header {
 }
 
 .quote-section {
+    background: #e5e7eb;
     display: flex;
 }
 
