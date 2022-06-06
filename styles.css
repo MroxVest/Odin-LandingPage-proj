@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .body {
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
-header, footer, .hero-section {
+header,
+footer,
+.hero-section {
     background: #1F2937;
+    color: #f9fAf8;
 }
 
 header {
