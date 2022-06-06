@@ -1,0 +1,32 @@
+.body {
+    display: flex;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.squares-section {
+    display: flex;
+}
+
+.quote-section {
+    display: flex;
+}
+
+cite {
+    font-weight: bold;
+}
+
+.cta-section {
+    display: flex;
+}
+
+footer {
+    text-align: center;
+}
