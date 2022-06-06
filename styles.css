@@ -68,12 +68,27 @@ header a {
 
 .squares-section {
     display: flex;
+    flex-flow: column;
     justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .square img {
     width: 12rem;
     height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 1rem;
 }
 
 .quote-section {
