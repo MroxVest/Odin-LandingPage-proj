@@ -48,6 +48,19 @@ header a {
     padding: 20px 17px 0px 17px;
 }
 
+.left-hero {
+    display: flex;
+    flex-flow: wrap;
+    padding: 30px;
+}
+
+.right-hero {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 30px;
+}
+
 .hero-section img {
     width: 110px;
     height: auto;
@@ -70,6 +83,15 @@ header a {
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+.square {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .squares {
