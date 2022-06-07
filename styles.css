@@ -79,26 +79,29 @@ header a {
 
 .squares-section {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+    flex: auto;
     gap: 8px;
 }
 
 .square {
     display: flex;
     flex-flow: column wrap;
+    flex: 0 0 189px;
     padding: 16px;
     justify-content: center;
     align-items: center;
     align-content: center;
+    align-self:center;
 }
 
 .squares {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     text-align: center;
-    width: 200px;
     padding: 16px;
     margin: 16px;
 }
