@@ -24,7 +24,7 @@ header {
 }
 
 header img {
-    width: 5rem;
+    width: 60px;
     height: auto;
 }
 
@@ -45,20 +45,18 @@ header a {
     display: flex;
     justify-content: space-around;
     gap: 20px;
-    padding: 20px;
-    padding-left: 17rem;
-    padding-right: 17rem;
+    padding: 20px 17px 0px 17px;
 }
 
 .hero-section img {
-    width: 25rem;
+    width: 110px;
     height: auto;
 }
 
 .hero-button {
     background-color: #3882f6;
-    border-radius: 1rem;
-    padding: .5rem;
+    border-radius: 5px;
+    padding: 8px;
 }
 
 .hero-button a {
@@ -71,24 +69,23 @@ header a {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 8px;
 }
 
 .squares {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 2rem;
     text-align: center;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    width: 200px;
+    padding: 16px;
+    margin: 16px;
 }
 
 .square img {
-    width: 12rem;
+    width: 60px;
     height: auto;
     border: 5px solid #3882f6;
-    border-radius: 1rem;
+    border-radius: 5px;
 }
 
 .quote-section {
@@ -97,9 +94,7 @@ header a {
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
-    padding-left: 17rem;
-    padding-right: 17rem;
+    padding: 8px 17px 0px 17px;
 }
 
 cite {
@@ -110,21 +105,20 @@ cite {
     display: flex;
     justify-content: space-around;
     background-color: #3882f6;
-    border-radius: 1rem;
-    margin: 12rem;
+    border-radius: 5px;
+    margin: 15px;
 }
 
 .left-cta {
     color: white;
-    padding: 2rem;
+    padding: 8px;
 }
 
 .cta-button {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
+    
     background-color: #3882f6;
     color: white;
-    border-radius: 1rem;
+    border-radius: 2px;
     border: 2px solid white;
 }
 
